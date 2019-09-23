@@ -10,15 +10,14 @@ public class Student{
     private Address address;
     private Course course;
     
-    public Student(String sid){
-        this.studentId = sid;
+    public Student(String studentId){
+        this.studentId = studentId;
     }
     
-    public Student(String sid, String fname, String sname){
-        this(sid);
-        this.firstName = fname;
-        this.surname = sname;
-        this.dob = dob;
+    public Student(String studentId, String firstName, String surname){
+        this(studentId);
+        this.firstName = firstName;
+        this.surname = surname;
     }
 
 	public String getStudentId() {
