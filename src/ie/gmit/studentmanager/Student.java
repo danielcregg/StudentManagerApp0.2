@@ -6,7 +6,7 @@ public class Student{
     private String studentId;
     private String firstName;
     private String surname;
-    //private Date dob;
+    private Date dob;
     private Address address;
     private Course course;
     
