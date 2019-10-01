@@ -3,6 +3,7 @@ package ie.gmit.studentmanager;
 import java.util.*; // For Date obj
 
 public class Student{
+	// Instance variables
     private String studentId;
     private String firstName;
     private String surname;
@@ -10,6 +11,7 @@ public class Student{
     private Address address;
     private Course course;
     
+    //Constructors
     public Student(String studentId){
         this.studentId = studentId;
     }
